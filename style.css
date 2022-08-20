@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 93%);
+}
+.card{
+    margin-top: 8%;
+}
+.container{
+    background-color:   hsl(213, 19%, 13%);
+    width:24%;
+    padding: 2%;
+    display: block;
+    margin: auto;
+    border-radius:30px 30px 30px 30px;
+}
+
+
+@media only screen and (max-width: 415px) {
+    .card{
+        margin-top: 28%;
+    }
+    .container{ 
+        width:79%;
+        padding: 7%; 
+    }
+    
+}
+@media only screen and (min-width: 416px) {
+    .container{
+        width:45%;
+       padding: 4%;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+    .container{
+        width:35%;
+       padding: 4%;
+    }
+    
+}
+@media only screen and (min-width: 1025px) {
+    .container{
+        background-color:   hsl(213, 19%, 13%);
+        width:24%;
+        padding: 2%;
+        display: block;
+        margin: auto;
+        border-radius:20px;
+    }
+}
+
+
+.container > p{
+line-height:1.5;
+color:hsl(217, 12%, 63%);
+}
+
+.text-center, .thanks-card{
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    align-items: flex-start;
+flex-wrap: nowrap;
+   height:74px;
+ width:100%;
+ margin-top:8%;
+
+}
+
+.circles{
+    width: 24px;
+    height: 20px;
+    padding: 4%;
+    color:hsl(217, 12%, 63%);
+    border-radius:50%;
+    text-align: center;   
+    background-color: hsl(216, 12%, 23%);
+    
+}
+
+.circles:hover{
+   background-color:hsl(217, 12%, 63%);
+   color:white;
+}
+
+
+.circles:nth-child(2), .circles:nth-child(4){
+margin-left: 6%;
+margin-right: 6%;
+
+}
+
+#circles{
+    width: 17px;
+    padding: 4%;
+    margin-bottom:3%;
+    text-align: center;
+    border-radius:50%;
+    background-color: hsl(216, 12%, 28%);
+}
+
+
+
+button{
+    background-color: hsl(25, 97%, 53%);
+    width:100%;
+    padding:4% 1%;
+      font-family: 'Overpass', sans-serif;
+   
+    border-radius: 30px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color:white;
+
+}
+
+.thanks-card{
+    display:none;
+}
+
+#thanks-icon{
+    display:block;
+    margin:auto;
+    padding:10px;
+    
+}
+
+p.results{
+    text-align: center;
+    padding:3px 5px;
+    width:60%;
+    display: block;
+    color:hsl(25, 97%, 53%);
+    margin:20px auto;
+    border-radius:30px;
+    background-color: hsl(216, 12%, 26%);
+}
+@media only screen and (max-width: 415px) {
+    p.results{
+       
+        width:80%;
+        
+    }
+}
+
+.thanks-card > p:nth-child(2){
+    color:hsl(217, 12%, 63%);
+
+}
