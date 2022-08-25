@@ -30,30 +30,33 @@ Users should be able to:
 
 ### Screenshot
 
-![](.images/screen1.ppg)
-![](.images/screen2.ppg)
+![](.images/screen1.png)
+![](.images/screen2.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/devsilva/Front-endmentor3)
-- Live Site URL: [Add live site URL here](https://devsilva.github.io/Front-endmentor3/)
+- Solution URL: [Add solution URL here](https://github.com/devsilva/frontend-pratice3-vs2/)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+started with the html
+linked it to the css
+the resulting page was loaded to the DOM with javascript since it is a web app
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Vanija Javascript
+- Vanila Javascript
 
 
 ### What I learned
 
 well i still have to refactor these code since they are not resusable so i am working on that, but for now. i learned how to carry out some actions before a click result is executed
 
-
+How to load html codes from javascript
 
 
 ### Continued development
@@ -63,6 +66,8 @@ Refactoring is in porgress and will be updated soon
 ### Useful resources
 
 - [Bro Code Youtube chnannel] - This helped me set timeout before executing a click action using his tutorial 
+- i was able to correct the mistakes while making the codes shorter and faster
+
 
 ## Author
 
