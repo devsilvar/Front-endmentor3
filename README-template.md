@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/devsilva/frontend-pratice3-vs2/)
-- Live Site URL: (https://devsilva.github.io/Front-endmentor3/)
+- Solution URL: (https://github.com/devsilvar/frontend-pratice3-vs2/)
+- Live Site URL: (https://devsilvar.github.io/Front-endmentor3/)
 
 ## My process
 started with the html
